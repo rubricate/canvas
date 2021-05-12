@@ -1,14 +1,21 @@
 <?php
-/**
+
+/*
+ * @package     Rubricate
+ * @author      Estefanio N Santos <estefanions AT gmail DOT com>
+ * @link        https://github.com/rubricate/canvas
  *
- * Classe para manipulação de imagens utilizando a extensão GD
- * e recursos avançados de filtros. Requer PHP 5 ou superior.
- *
- * @author     Davi Ferreira <contato@daviferreira.com>
- * @version    1.0 $ 2010-10-17 19:11:51 $
+ * @author      Davi Ferreira <contato AT daviferreira DOT com>
+ * @link        https://github.com/daviferreira/canvas
+ * 
  */
 
-class Canvas
+
+
+namespace Rubricate\Canvas;
+
+
+class ImageCanvas
 {
 
     /**
@@ -54,7 +61,7 @@ class Canvas
     public static function Instance($origem = '')
     {
         if (empty(self::$instance))
-            self::$instance = new canvas($origem);
+            self::$instance = new ImageCanvas($origem);
         else
             self::$instance->resetar();
 

@@ -1,12 +1,18 @@
 {
-    "name": "daviferreira/canvas",
+    "name": "rubricate/canvas",
     "authors": [
+        {
+            "name": "Estefanio N Santos",
+            "email": "estefanions@gmail.com"
+        },
         {
             "name": "Davi Ferreira",
             "email": "hi@daviferreira.com"
         }
     ],
     "autoload": {
-        "classmap": ["canvas.php"]
+        "psr-4": {
+            "Rubricate\\Canvas\\": "Rubricate/Canvas/"
+        }
     }
 }
