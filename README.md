@@ -66,7 +66,7 @@ Este novo método permite a criação de uma nova imagem “do zero”. Você pa
 
 ```php
 $img->carregaUrl('https://rubricate.github.io/asset/image/canvas/img03.jpg')
-  ->redimensiona( 200, 80, 'crop' )
+  ->redimensiona( 400, 200, 'crop' )
   ->grava();
 
 ```
