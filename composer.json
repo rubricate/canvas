@@ -1,5 +1,6 @@
 {
     "name": "rubricate/canvas",
+    "description": "Image manipulation and resizing",
     "authors": [
         {
             "name": "Estefanio N Santos",
@@ -10,6 +11,20 @@
             "email": "hi@daviferreira.com"
         }
     ],
+    "keywords": [
+        "rubricateframework",
+        "rubricatephp",
+        "canvas",
+        "Image manipulation",
+        "Image resizing"
+    ],
+    "support": {
+        "docs"   : "https://rubricate.github.io/components/canvas",
+        "source" : "https://github.com/rubricate/canvas"
+    },
+    "require": {
+        "php": "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "Rubricate\\Canvas\\": "Rubricate/Canvas/"
