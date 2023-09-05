@@ -1,6 +1,7 @@
 {
     "name": "rubricate/canvas",
     "description": "Image manipulation and resizing",
+    "license": "MIT",
     "authors": [
         {
             "name": "Estefanio N Santos",
