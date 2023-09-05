@@ -209,7 +209,7 @@ $img->carrega('dogs.jpg')
 
 ### Requisitos:
 
-* requer PHP 7.3 or +;
+*   requer PHP 5.4 or +;
 * a extensão GD não está habilitada;
 * permissao de escrita para imagens;
 * PHP com freetype (para o uso de fontes truetype) ou com suporte à função imagefilter();

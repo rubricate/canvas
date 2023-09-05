@@ -23,7 +23,7 @@
         "source" : "https://github.com/rubricate/canvas"
     },
     "require": {
-        "php": "^7.1"
+        "php": "^5.4"
     },
     "autoload": {
         "psr-4": {
